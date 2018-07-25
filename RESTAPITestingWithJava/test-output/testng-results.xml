@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="99275" started-at="2018-07-25T04:44:08Z" finished-at="2018-07-25T04:45:47Z">
+  <suite name="Default suite" duration-ms="6342" started-at="2018-07-25T17:48:59Z" finished-at="2018-07-25T17:49:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="99275" started-at="2018-07-25T04:44:08Z" finished-at="2018-07-25T04:45:47Z">
+    <test name="Default test" duration-ms="6342" started-at="2018-07-25T17:48:59Z" finished-at="2018-07-25T17:49:05Z">
       <class name="TestSuite.Tests">
-        <test-method status="PASS" signature="ValidateResponseTimeStampFormat()[pri:0, instance:TestSuite.Tests@ef9296d]" name="ValidateResponseTimeStampFormat" duration-ms="99249" started-at="2018-07-25T04:44:08Z" finished-at="2018-07-25T04:45:47Z">
+        <test-method status="PASS" signature="ValidateOwnerLoginFromResponse()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateOwnerLoginFromResponse" duration-ms="2529" started-at="2018-07-25T17:48:59Z" finished-at="2018-07-25T17:49:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateResponseTimeStampFormat -->
+        </test-method> <!-- ValidateOwnerLoginFromResponse -->
+        <test-method status="PASS" signature="ValidateRepoFullName()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateRepoFullName" duration-ms="523" started-at="2018-07-25T17:49:01Z" finished-at="2018-07-25T17:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRepoFullName -->
+        <test-method status="PASS" signature="ValidateRepoName()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateRepoName" duration-ms="539" started-at="2018-07-25T17:49:02Z" finished-at="2018-07-25T17:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRepoName -->
+        <test-method status="PASS" signature="ValidateResponseContentType()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateResponseContentType" duration-ms="519" started-at="2018-07-25T17:49:02Z" finished-at="2018-07-25T17:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseContentType -->
+        <test-method status="PASS" signature="ValidateResponseDateHeaderFormat()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateResponseDateHeaderFormat" duration-ms="547" started-at="2018-07-25T17:49:03Z" finished-at="2018-07-25T17:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseDateHeaderFormat -->
+        <test-method status="PASS" signature="ValidateResponseStatusCode()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateResponseStatusCode" duration-ms="509" started-at="2018-07-25T17:49:03Z" finished-at="2018-07-25T17:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseStatusCode -->
+        <test-method status="PASS" signature="ValidateResponseURLField()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateResponseURLField" duration-ms="539" started-at="2018-07-25T17:49:04Z" finished-at="2018-07-25T17:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseURLField -->
+        <test-method status="PASS" signature="ValidateTimeStampsFormatUnderResponse()[pri:0, instance:TestSuite.Tests@6767c1fc]" name="ValidateTimeStampsFormatUnderResponse" duration-ms="605" started-at="2018-07-25T17:49:04Z" finished-at="2018-07-25T17:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTimeStampsFormatUnderResponse -->
       </class> <!-- TestSuite.Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

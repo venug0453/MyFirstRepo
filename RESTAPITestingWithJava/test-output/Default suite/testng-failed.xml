@@ -5,7 +5,7 @@
     <classes>
       <class name="TestSuite.Tests">
         <methods>
-          <include name="ValidateResponseTimeStampFormat"/>
+          <include name="ValidateResponseDateHeaderFormat"/>
         </methods>
       </class> <!-- TestSuite.Tests -->
     </classes>
