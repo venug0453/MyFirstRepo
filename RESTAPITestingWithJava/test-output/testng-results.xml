@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99275" started-at="2018-07-25T04:44:08Z" finished-at="2018-07-25T04:45:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="99275" started-at="2018-07-25T04:44:08Z" finished-at="2018-07-25T04:45:47Z">
+      <class name="TestSuite.Tests">
+        <test-method status="PASS" signature="ValidateResponseTimeStampFormat()[pri:0, instance:TestSuite.Tests@ef9296d]" name="ValidateResponseTimeStampFormat" duration-ms="99249" started-at="2018-07-25T04:44:08Z" finished-at="2018-07-25T04:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseTimeStampFormat -->
+      </class> <!-- TestSuite.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
